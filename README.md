@@ -1,5 +1,5 @@
 # RISC_V-Processor
-readme_content = """# RISC-V Processor (SystemVerilog)
+readme_content RISC-V Processor (SystemVerilog)
 
 This project implements a simplified **RISC-V processor** in **SystemVerilog**, focusing on the core concepts of instruction fetching and program counter management. The design includes three main components:  
 - **Program Counter (PC)** – Handles the current instruction address and supports control signals for hold/load operations.  
@@ -35,7 +35,6 @@ All components are integrated into the top module `RISC_V_Processor`, and a dedi
 - Add an instruction decoder.
 - Implement a register file and ALU for arithmetic operations.
 - Add support for simple RISC-V instructions.
-"""
 
 # Save to a file
 readme_path = "/mnt/data/README.md"
